@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <in.srain.cube.views.ptr.PtrClassicFrameLayout
+        android:id="@+id/ultra_ptr_frame"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<FrameLayout-->
+            <!--android:id="@+id/ultra_refresh_frame"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#f00">-->
+
+            <!--<ScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical">-->
+
+                        <!--<Button-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/btn"-->
+                        <!--android:layout_marginLeft="50dp"-->
+                        <!--android:text="点击跳转"/>-->
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="150dp"-->
+                            <!--android:text="Hello"-->
+                            <!--android:textSize="150sp"/>-->
+                    <!--</LinearLayout>-->
+            <!--</ScrollView>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="160dp"-->
+                <!--android:src="@mipmap/ic_launcher"-->
+                <!--android:id="@+id/iv"/>-->
+
+            <!---->
+
+        <!--</LinearLayout>-->
+
+
+        <com.young.ultra.RefreshListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv">
+        </com.young.ultra.RefreshListView>
+
+
+
+    </in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+</LinearLayout>
